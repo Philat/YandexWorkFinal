@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Анкета участника ШРИ Яндекса</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="css/core.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="css/accordion.core.css" type="text/css" charset="utf-8">
+        <style type="text/css">
+            .loading {
+                display: none;
+            }
+            .accordion {
+                border: 1px solid #dece61;
+                width:  70%;
+            }
+                .accordion li h3 a {
+                    background:             #fcca51;
+                    background:             #fcca51 -webkit-gradient(linear, left top, left bottom, from(#fdeb6a), to(#fcca51)) no-repeat;
+                    background:             #fcca51-moz-linear-gradient(top,  #fdeb6a,  #fcca51) no-repeat;
+                    border-bottom:          1px solid #dece61;
+                    border-top:             1px solid #dece61;
+                    color:                  #2c1f04;
+                    display:                block;
+                    font-style:             normal;
+                    margin:                 0;
+                    padding:                5px 10px;
+
+                }
+                    .accordion li.active h3 a {
+                        background:             #d17b3b;
+                        background:             #d17b3b -webkit-gradient(linear, left top, left bottom, from(#e19156), to(#d17b3b)) no-repeat;
+                        background:             #d17b3b -moz-linear-gradient(top,  #e19156,  #d17b3b) no-repeat;
+                        border-bottom:          1px solid #036;
+                        border-top:             1px solid #9cf;
+                        color:                  #2c1f04;
+                    }
+                   
+                .accordion li h3 {
+                    margin:         0;
+                    padding:        0;
+                }
+                .accordion .panel {
+                    padding:        10px;
+                }
+                textarea {width = 100%; height =400px; resize: none;}
+        </style>
+    </head>
+    <body >
+     <FORM NAME="mailer" METHOD="post" ACTION="" ENCTYPE="text/plain" 
+onSubmit="(document.mailer.action += mailtoandsubject)"> 
+        <div id="page">
+            <h1>Анкета второй Школы разработки интерфейсов в Москве</h1>
+            
+            <p>Яндекс открывает набор во вторую Школу разработки интерфейсов в Москве. Для поступления необходимо заполнить анкету с тестовыми заданиями. Приём заявок закрывается 19 августа в 23:59 по московскому времени. По результатам теста мы пригласим в Школу 30-40 человек.</p>
+            
+            <h2>Анкета</h2>
+            
+            <p> Заполните анкету </p>
+            
+            <ul id="example4" class="accordion">
+                <li>
+                    <h3>Вопрос 1</h3>
+                    <div class="panel loading">
+                        <h4>Год рождения</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text1"></textarea>
+                    </div>
+                </li>
+                <li>
+                    <h3>Вопрос 2</h3>
+                    <ul class="panel loading">
+                        <h4>Город, в котором вы живёте</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text2"></textarea>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Вопрос 3</h3>
+                    <div class="panel loading">
+                    <h4>Вуз, факультет, специальность, кафедра</h4>
+                    <br>
+                    <textarea rows="5" cols="60" name="text3"></textarea>
+                    </div>
+                </li>
+                <li>
+                    <h3>Вопрос 4</h3>
+                    <div class="panel loading">
+                        <h4>Год окончания ВУЗа</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text4"></textarea>
+                    </div>
+                </li>
+                <li>
+                    <h3>Вопрос 5</h3>
+                    <div class="panel loading">
+                        <h4>Уровень владения английскоим языком
+                        <br/> <br>
+<input type="checkbox"/> начальный<br/>
+<input type="checkbox"/> средний<br/>
+<input type="checkbox"/> свободное владение<br/>
+                    </h4>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 6</h3>
+                    <div class="panel loading">
+                        <h4>Чего вы ожидаете от участия в Школе? </h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text6"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 7</h3>
+                    <div class="panel loading">
+                        <h4>Откуда вы о нас узнали?</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text7"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 8</h3>
+                    <div class="panel loading">
+                        <h4>Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text8"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 9</h3>
+                    <div class="panel loading">
+                        <h4>Расскажите о вашем опыте разработки. Нам будет интересно всё — как серьезный интерфейс, так и просто домашняя страничка</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text9"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 10</h3>
+                    <div class="panel loading">
+                        <h4>Если вы где-нибудь работали, расскажите, какие у вас были должностные обязанности и был ли опыт работы в команде</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text10"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 11</h3>
+                    <div class="panel loading">
+                        <h4>Перечислите, какими программными продуктами вы пользуетесь в своей работе — от редактора до специализированных утилит (Intellij Idea, Node.js, Uglify.js, GNU Make). Для каждого инструмента укажите, какие задачи вы с помощью него решаете и почему выбрали именно его.</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text11"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 12</h3>
+                    <div class="panel loading">
+                        <h4>Пользуетесь ли вы командной строкой? Какими командами вы пользуетесь и какие задачи вы решаете с их помощью? С какими программами вы преимущественно или полностью взаимодействуете через интерфейс командной строки?</h4>
+                        <br>
+                        <textarea rows="5" cols="60" name="text12"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 13</h3>
+                    <div class="panel loading">
+                        <h4>Напишите на JavaScript функцию, которая выводит список всех чисел, которые равны сумме факториалов своих цифр. Пример такого числа: </h4>
+                        <p> <br> 4! + 0! + 5! + 8! + 5! = 40585 <br> </p>
+                        <h4>В качестве ответа на вопрос пришлите ссылку на <a href="http://jsfiddle.net/" style="color: blue">http://jsfiddle.net/</a>
+                       с вашим кодом или на ваш репозиторий на <a href="https://github.com/" style="color: blue">https://github.com/</a>  </h4>
+                       <br>
+                        <textarea rows="5" cols="60" name="text13"></textarea>
+                    </div>
+                     <li>
+                    <h3>Вопрос 14</h3>
+                    <div class="panel loading">
+                        <h4>Вы — пилот грузового межгалактического корабля. Ваша работа — перевозка грузов с одной планету на другую. Грузоподъемность вашего корабля ограничена, поэтому за один рейс вы можете перевезти не более N кг полезного груза. Ваш корабль умеет сообщать свое состояние (местоположение и степень загруженности), а также летать в любую точку пространства. Каждая планета может содержать на себе груз, который можно взять. Также на каждой планете груз можно оставить . <br> <br>
+
+Задание
+<br> <br>
+Даны незавершенные интерфейсы корабля и планеты. Напишите недостающий код.
+<br> <br>
+Полное условие задачи доступно на
+<br> <br>
+<a href="https://github.com/yandex-shri/introtask-space" style="color: blue">https://github.com/yandex-shri/introtask-space/</a> .
+<br> <br>
+В качестве ответа на вопрос пришлите ссылку на <a href="http://jsfiddle.net/" style="color: blue">http://jsfiddle.net/</a> с вашим кодом или на ваш репозиторий на <a href="https://github.com/" style="color: blue">https://github.com/</a> . </h4>
+<br>
+                        <textarea rows="5" cols="60" name="text14"></textarea>
+                    </div>
+                </li>
+                 <li>
+                    <h3>Вопрос 15</h3>
+                    <div class="panel loading">
+                        <h4>Сверстайте форму-анкету с нашими заданиями для кандидатов. Страница должна работать в следующих браузерах: MSIE (8, 9, 10), Google Chrome (26, 27), Firefox (20, 21), Opera (12.15, 12.14), Яндекс.Браузер 1.5. По возможности используйте приёмы безопасной деградации CSS. Страница должна содержать интерактив, реализованный с помощью JS и jQuery. Это может быть:  <br> <br>
+                        <ul class="panel loading">
+                        <li>проверка полноты и правильности заполнения полей (где это возможно);</li>
+                        <li> возможность свернуть и развернуть разделы (аккордеон); </li>
+                        <li>индикатор заполнения анкеты;</li>
+                        <li>что-нибудь ещё</li>
+                    </ul>
+<br> <br>
+
+Подумайте над тем, как эти данные будут отправляться на сервер.
+<br> <br>
+Будет плюсом, если вы сверстаете страницу, используя БЭМ.
+<br><br>
+Дополнительные задания
+<br><br>
+1. Выполните задание про форму-анкету, используя один из классических шаблонизаторов: Handlebars, mustache, Dust, Jade и т.п.
+<br><br>
+2. Выполните задание про форму-анкету, используя один из экзотических шаблонизаторов: XSLT, YATE, BEMHTML и т.п.
+<br><br>
+Разработку необходимо вести на <a href="https://github.com/" style="color: blue">https://github.com/</a>. В качестве ответа на вопрос пришлите ссылку на проект. </h4>
+<br>
+                        <textarea rows="5" cols="60" name="text15"></textarea>
+                    </div>
+                </li>
+                </li>
+            </ul>
+            <div>
+            <br>
+      
+<TABLE BORDER=0>
+<TR VALIGN="top">
+<TD>Получатель:</TD>
+<TD><INPUT type="text" SIZE=35 NAME="mailtoperson" onChange="msg(this.form)">
+</TR>
+<TR VALIGN="top">
+<TD>Ваше имя:</TD>
+<TD><INPUT TYPE="text" SIZE=35 NAME="name" onChange="msg(this.form)"> </TD>
+</TR>
+<TR VALIGN="top">
+<TD>Ваш Email:</TD>
+<TD><INPUT TYPE="text" SIZE=35 NAME="email" onChange="msg(this.form)"></TD>
+</TR>
+<TR VALIGN="top">
+<TD>От кого вы узнали о ШРИ:</TD>
+<TD>
+<SELECT NAME="choise" onChange="msg(this.form)">
+<OPTION VALUE="NaN" selected>Невыбрано
+<OPTION VALUE="HR">От HR-менеджера Яндекса
+<OPTION VALUE="Subbotnick">Я.Субботник
+<OPTION VALUE="YaC">Yet another conference
+<OPTION VALUE="another">На другой конференции
+<OPTION VALUE="search">из поиска
+<OPTION VALUE="recommendation">по рекомендации
+</SELECT></TD>
+</TR>
+<TR VALIGN="top">
+<TD>Ваше резюме</TD>
+<TD><INPUT TYPE="file" SIZE=35 NAME="resume" onChange="msg(this.form)"></TD>
+</TR>
+<TR VALIGN="top">
+<TD>Тема:</TD>
+<TD><INPUT TYPE="text" SIZE=35 NAME="subject" onChange="msg(this.form)"></TD>
+</TR>
+<TR VALIGN="top">
+<TD>Сообщение:</TD>
+<TD><TEXTAREA NAME="message" COLS=35 ROWS=5 WRAP="virtual" OnChange="msg(this.form)"></TEXTAREA></TD>
+</TR>
+<TR>
+<TD> </TD>
+<TD><INPUT TYPE="submit" VALUE="Отправить">
+<INPUT TYPE="reset" VALUE="Сброс"></TD>
+</TR>
+</TABLE>
+</FORM>
+
+<SCRIPT LANGUAGE="JavaScript">
+function msg() {
+document.mailer.action = "mailfrom:" 
+mailtoandsubject = ((document.mailer.mailtoperson.options[document.mailer.mailtoperson.selectedIndex].value) + '?subject=' + document.mailer.subject.value); 
+} 
+</SCRIPT>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.accordion.2.0.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            $('#example1, #example3').accordion();
+            $('#example2').accordion({
+                canToggle: true
+            });
+            $('#example4').accordion({
+                canToggle: true,
+                canOpenMultiple: true
+            });
+            $(".loading").removeClass("loading");
+        </script>
+    </body>
+</html>
