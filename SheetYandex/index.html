@@ -12,7 +12,7 @@
             }
             .accordion {
                 border: 1px solid #dece61;
-                width:  70%;
+                width:  80%;
             }
                 .accordion li h3 a {
                     background:             #fcca51;
@@ -45,6 +45,7 @@
                 }
                 textarea {width = 100%; height =400px; resize: none;}
         </style>
+
     </head>
     <body >
      <FORM NAME="mailer" METHOD="post" ACTION="" ENCTYPE="text/plain" 
@@ -58,10 +59,10 @@ onSubmit="(document.mailer.action += mailtoandsubject)">
             
             <p> Заполните анкету </p>
             
-            <ul id="example4" class="accordion">
+            <ul id="example" class="accordion">
                 <li>
                     <h3>Вопрос 1</h3>
-                    <div class="panel loading">
+                    <div class="panel loading"> 
                         <h4>Год рождения</h4>
                         <br>
                         <textarea rows="5" cols="60" name="text1"></textarea>
@@ -276,11 +277,8 @@ mailtoandsubject = ((document.mailer.mailtoperson.options[document.mailer.mailto
         <script type="text/javascript" src="js/jquery-1.4.2.min.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/jquery.accordion.2.0.js" charset="utf-8"></script>
         <script type="text/javascript">
-            $('#example1, #example3').accordion();
-            $('#example2').accordion({
-                canToggle: true
-            });
-            $('#example4').accordion({
+
+            $('#example').accordion({
                 canToggle: true,
                 canOpenMultiple: true
             });
